@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+//Create a function
+void myFunction(){
+  printf("I just got executed!");
+}
+
+
+int main(){
+  myFunction(); //call the function
+  return 0;
+}
